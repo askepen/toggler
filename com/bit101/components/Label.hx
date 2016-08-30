@@ -85,7 +85,7 @@ class Label extends Component
 		_tf.embedFonts = Style.embedFonts;
 		_tf.selectable = false;
 		_tf.mouseEnabled = false;
-		_tf.defaultTextFormat = new TextFormat(Style.fontName, Style.fontSize, Style.LABEL_TEXT);
+		_tf.defaultTextFormat = new TextFormat(Style.fontName, Std.int(Style.fontSize), Style.LABEL_TEXT);
 		_tf.text = _text;			
 		addChild(_tf);
 		draw();
